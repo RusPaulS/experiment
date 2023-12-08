@@ -1,0 +1,124 @@
+body {
+ background-image: url("marek-piwnicki-Nhkc6X3XVcI-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+}
+
+h1 {
+  color: black; 
+  border-bottom: 10px solid black; 
+  padding-bottom: 8px;
+  font-family: Fantasy ;
+  font-style:Copperplate ;
+  color: black;
+  text-align: center;
+}
+
+.chenar, .contact {
+      border: 4px double;
+      padding: 10px;
+      width: fit-content;
+      border-radius: 10px;
+      text-align: center;
+      
+      border-image: linear-gradient(to right, #3d91ff, #11038c);
+      border-image-slice: 1;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 20px;
+    }
+
+h3{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #f2b16b, #f7d040 ); 
+    color: #fff; 
+    text-align: center;
+  font-family: Georgia ;
+  font-style: serif ;
+ border-radius: 10px
+ }
+ul {
+	text-align: central;
+	list-style-position: inside;
+}
+li {
+	text-align: center;
+}
+
+.tabel {
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: linear-gradient(45deg, #3d91ff, #11038c);
+    color: #fff;
+}
+
+.tabel th, .tabel td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.img{
+  width: 400px; 
+height: 400px; 
+overflow: hidden; 
+border: 2px solid #96a8fa; 
+border-radius: 10px; 
+margin-left: auto; 
+margin-right: auto;    
+}
+
+.caracteristici{
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            background: linear-gradient(to right,#3d91ff, #11038c); 
+            color: white;
+            border-radius: 10px;
+}
+
+slideshow{
+    display: flex; 
+    overflow: hidden;
+    max-width: 600px;
+    margin-riht:auto;
+    margin-left:auto;
+}
+
+.mySlides {
+    display: none;
+margin-riht:auto;
+    margin-left:auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+margin-left:auto;
+margin-right:auto;
+}
+
+#startButton {
+ display: inline-block;
+    width: 304px;
+    padding: 3px 30px;
+    background: linear-gradient(to right, #f2b16b, #f7d040);
+    color: #fff;
+    font-family: Georgia;
+    font-style: serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.central{
+    margin-right: auto; 
+    margin-left: auto; 
+    max-width: 80%;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(61, 145, 255, 60%), rgba(17, 3, 140, 60%));
+    border-radius: 10px;
+}
